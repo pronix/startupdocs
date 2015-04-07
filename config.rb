@@ -1,6 +1,8 @@
 require 'slim'
+Slim::Engine.disable_option_validator!
 
 activate :automatic_image_sizes
+activate :i18n, mount_at_root: :ru
 
 set :css_dir,    'assets/stylesheets'
 set :js_dir,     'assets/javascripts'

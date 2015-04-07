@@ -1,0 +1,8 @@
+---
+ru:
+  landing:
+    header: "Текст в шапке"
+    about:
+      h2: "О проекте"
+    templates:
+      h2: "Документы"
