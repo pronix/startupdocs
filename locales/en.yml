@@ -1,7 +1,9 @@
 ---
 en:
   landing:
-    header: "Free templates for startups. Download fair and standardized term sheet, shareholders’ agreement, guide to stock options and more."
+    header:
+      h2: "Free templates for startups. Download fair and standardized term sheet, shareholders’ agreement, guide to stock options and more."
+      leave-email: "Please enter your e-mail address so I can keep you posted on any updates."
     about:
       h2: "What is StartupDocs?"
     templates:
