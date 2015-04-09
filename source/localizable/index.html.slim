@@ -24,7 +24,7 @@ title: Free Document Templates
         .content
           h2= t('landing.templates.h2')
           ul
-            - for document in data.documents.send(I18n.locale.to_sym)
+            - for document in data.send(I18n.locale.to_sym).documents
               li
                 h3= link_to document.name, document.link, title: document.name
                 p= document.description
