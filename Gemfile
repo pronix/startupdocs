@@ -6,4 +6,3 @@ gem 'middleman-livereload'
 gem 'middleman-minify-html'
 gem 'jquery-middleman'
 gem 'slim'
-gem 'bootstrap-sass', require: false

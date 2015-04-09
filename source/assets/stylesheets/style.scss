@@ -17,7 +17,7 @@ a{
   color: #02AEAF;
 }
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Didact Gothic', DidactGothic, 'gothic', AppleGothic, sans-serif;
+  font-family: 'Didact Gothic', CenturyGothic, 'gothic', AppleGothic, sans-serif;
   font-weight: normal;
 }
 h2{
@@ -63,7 +63,7 @@ h2{
 /* Nav */
 .main-nav{
   background: #fff;
-  font-family: 'Didact Gothic', DidactGothic, 'gothic', AppleGothic, sans-serif;
+  font-family: 'Didact Gothic', CenturyGothic, 'gothic', AppleGothic, sans-serif;
   height: 100%;
   position: absolute;
   top: -100%;
@@ -93,7 +93,7 @@ h2{
 
 .toggle-btn{
   color: #000;
-  font-family: 'Didact Gothic', DidactGothic, 'gothic', AppleGothic, sans-serif;
+  font-family: 'Didact Gothic', CenturyGothic, 'gothic', AppleGothic, sans-serif;
   position: absolute;
   z-index: 11;
   top: 50px;
@@ -112,7 +112,7 @@ h2{
   padding: 30px 20px;
 }
 .main-header h1{
-  font-family: 'Didact Gothic', DidactGothic, 'gothic', AppleGothic, sans-serif;
+  font-family: 'Didact Gothic', CenturyGothic, 'gothic', AppleGothic, sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
   margin:0;
@@ -146,7 +146,7 @@ h2{
   box-sizing: border-box;
   color: #fff;
   display: block !important;
-  font-family: 'Didact Gothic', DidactGothic, 'gothic', AppleGothic, sans-serif;
+  font-family: 'Didact Gothic', CenturyGothic, 'gothic', AppleGothic, sans-serif;
   font-size: 12px;
   letter-spacing: 2px;
   line-height: 1;
@@ -199,7 +199,7 @@ h2{
   box-sizing: border-box;
   box-shadow: 0 0 8px rgba(0,0,0,.18),0 8px 16px rgba(0,0,0,.36);
   color: #fff;
-  font-family: 'Didact Gothic', DidactGothic, 'gothic', AppleGothic, sans-serif;
+  font-family: 'Didact Gothic', CenturyGothic, 'gothic', AppleGothic, sans-serif;
   font-size: 14px;
   font-weight: normal;
   letter-spacing: 1px;
@@ -245,7 +245,7 @@ h2{
 .page-heading{
   box-sizing: border-box;
   display: block;
-  font-family: 'Didact Gothic', DidactGothic, 'gothic', AppleGothic, sans-serif;
+  font-family: 'Didact Gothic', CenturyGothic, 'gothic', AppleGothic, sans-serif;
   font-weight: lighter;
   margin: 0 auto;
   text-transform: uppercase;
@@ -272,7 +272,7 @@ h2{
 }
 .document-templates ul li{
   padding-left: 36px;
-  background: url(ui/img/document-small.png);
+  background: image-url('document-small.png');
   background-repeat: no-repeat;
   background-position: left 4px;
 }
@@ -296,7 +296,7 @@ h2{
   padding-left: 0;
 }
 .latest-news h3{
-  font-family: 'Didact Gothic', DidactGothic, 'gothic', AppleGothic, sans-serif;
+  font-family: 'Didact Gothic', CenturyGothic, 'gothic', AppleGothic, sans-serif;
   font-weight: normal;
 }
 .latest-news h3 a{
@@ -426,7 +426,7 @@ h2{
 }
 .entry-content h1, .entry-content h2{
   color: #000;
-  font-family: 'Didact Gothic', DidactGothic, 'gothic', AppleGothic, sans-serif;
+  font-family: 'Didact Gothic', CenturyGothic, 'gothic', AppleGothic, sans-serif;
   font-size: 1.8em;
   font-weight: lighter;
   text-transform: uppercase;
@@ -473,7 +473,7 @@ h2{
   box-sizing: border-box;
   box-shadow: 0 0 8px rgba(0,0,0,.18),0 8px 16px rgba(0,0,0,.36);
   color: #fff;
-  font-family: 'Didact Gothic', DidactGothic, 'gothic', AppleGothic, sans-serif;
+  font-family: 'Didact Gothic', CenturyGothic, 'gothic', AppleGothic, sans-serif;
   font-size: 14px;
   font-weight: normal;
   letter-spacing: 1px;
@@ -520,7 +520,7 @@ h2{
 
 .ninja-forms-cont input {
   font-size: 18px;
-  font-family: 'Didact Gothic', DidactGothic, 'gothic', AppleGothic, sans-serif;
+  font-family: 'Didact Gothic', CenturyGothic, 'gothic', AppleGothic, sans-serif;
 }
 
 .ninja-forms-cont input[type="email"] {
@@ -556,13 +556,13 @@ h2{
     width: 128px;
   }
   .twitter{
-    background-image: url(ui/img/twitter.png);
+    background-image: image-url('twitter.png');
   }
   .facebook{
-    background-image: url(ui/img/facebook.png);
+    background-image: image-url('facebook.png');
   }
   .linkedin{
-    background-image: url(ui/img/linkedin.png);
+    background-image: image-url('linkedin.png');
   }
 }
 @media all and (min-width: 50em) {
