@@ -1,7 +1,13 @@
 - name: Решение единственного учредителя общества
   link: reshenie-edinstvennogo-uchreditelya-obshestva
   description: Решение о создании ООО
+  created_at: 8 апреля 2015
+  author_name: Дмитрий
+  author_link: https://twitter.com/ipronix
 
 - name: Устав общества
   link: ustav-obshestva
   description: Документ
+  created_at: 9 апреля 2015
+  author_name: Дмитрий
+  author_link: https://twitter.com/ipronix
