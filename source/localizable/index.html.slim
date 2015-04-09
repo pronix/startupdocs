@@ -17,7 +17,7 @@ title: Free Document Templates
       section
         .content
           h2= t('landing.about.h2')
-          p
+          p=  t('landing.about.text')
 
     .section.document-templates
       section
@@ -26,9 +26,22 @@ title: Free Document Templates
           ul
             - for document in data.documents.send(I18n.locale.to_sym)
               li
-                h3
-                  = link_to document.name, document.link, title: document.name
+                h3= link_to document.name, document.link, title: document.name
                 p= document.description
+
+    .section.latest-news
+      section
+        .content
+          h2= t('landing.news.h2')
+          h3= link_to t('landing.news.h3'), '#'
+          p=  t('landing.news.text')
+          p=  link_to t('landing.news.more-link'), '#', class: 'more-link'
+
+    .section.partners
+      section
+        .content
+          h2= t('landing.partners.h2')
+          p=  t('landing.partners.text')
 
     .section.social
       section

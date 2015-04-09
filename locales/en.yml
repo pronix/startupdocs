@@ -6,8 +6,17 @@ en:
       leave-email: Please enter your e-mail address so I can keep you posted on any updates.
     about:
       h2: What is StartupDocs?
+      text: "<p>I, <a href='https://twitter.com/#'>User Name</a>, took this initiative to help entrepreneurs focus on running their businesses, instead of spending time and money on unnecessary legal paperwork and tiresome negotiations. My legal partner Lawyer Name</a> has been along from the very beginning.</p><p>As an investor, I see many term sheets. Quite often, they are written with primarily the interests of the investors or the founders in mind. This is not the best starting point for a successful relationship! Why not start negotiations based on a fair and balanced term sheet instead? I'm convinced that this approach long-term will benefit both the company and all shareholders.</p><p>In addition to the investment documents (term sheet, subscription agreement and shareholder's agreement), I have also created a guide to stock options in startups.</p><p>It's all free – this is my way of giving back to the startup community. You are free to use, modify and share the documents, but you may not commercially exploit them.</p>"
     templates:
       h2: Documents
+    news:
+      h2: Latest News
+      h3: Subscription and Shareholders’ Agreement
+      text: "<p>After you have agreed on the term sheet...</p>"
+      more-link: (more&hellip;)
+    partners:
+      h2: Heroes
+      text: Many people have helped me making this initiative a reality.
     social:
       h2: Sharing is caring
     footer:
