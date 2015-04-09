@@ -556,13 +556,13 @@ h2{
     width: 128px;
   }
   .twitter{
-    background-image: url(ui/img/twitter.png);
+    background-image: image-url('twitter.png');
   }
   .facebook{
-    background-image: url(ui/img/facebook.png);
+    background-image: image-url('facebook.png');
   }
   .linkedin{
-    background-image: url(ui/img/linkedin.png);
+    background-image: image-url('linkedin.png');
   }
 }
 @media all and (min-width: 50em) {

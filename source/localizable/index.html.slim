@@ -47,6 +47,10 @@ title: Free Document Templates
       section
         .content
           h2= t('landing.social.h2')
+          ul
+            li= link_to 'Share on Twitter', "https://twitter.com/share?url=#{t('landing.social.site-url')}", class: 'twitter'
+            li= link_to 'Share on Facebook', "http://www.facebook.com/sharer.php?u=#{t('landing.social.site-url')}", class: 'facebook'
+            li= link_to 'Share on Linkedin', "http://www.linkedin.com/shareArticle?mini=true&url=#{t('landing.social.site-url')}", class: 'linkedin'
 
     .footer.main-footer
       footer

@@ -19,6 +19,7 @@ ru:
       text: бла
     social:
       h2: Расскажите друзьям
+      site-url: "http://startupdocs.ru"
     footer:
       h2: Disclaimer
       contacts: Контакты
