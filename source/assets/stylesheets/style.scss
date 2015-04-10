@@ -6,6 +6,10 @@
   font-family: 'Didact Gothic', sans-serif;
 }
 
+// $main_color: #663399;
+// $main_color: #336699;
+$main_color: #025D8C;
+
 body{
   color: #3d3d3d;
   font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
@@ -211,8 +215,8 @@ h2{
   color: #fff;
 }
 #mc_embed_signup input[type="submit"]{
-  background: #663399;
-  border: 2px solid #663399;
+  background: $main_color;
+  border: 2px solid $main_color;
   box-sizing: border-box;
   box-shadow: 0 0 8px rgba(0,0,0,.18),0 8px 16px rgba(0,0,0,.36);
   color: #fff;
@@ -243,7 +247,7 @@ h2{
 /* Page Header */
 
 .page-header{
-  background: #663399;
+  background: $main_color;
   border-bottom: 1px solid #e4e4e4;
   box-sizing: border-box;
 }
@@ -277,7 +281,7 @@ h2{
 
 /* Document Templates */
 .document-templates{
-  background: #663399;
+  background: $main_color;
   color: #E7E1EE;
 }
 .document-templates h2{
@@ -491,8 +495,8 @@ h2{
   width: 100%;
 }
 .comments-wrapper input[type="submit"]{
-   background: #663399;
-  border: 2px solid #663399;
+   background: $main_color;
+  border: 2px solid $main_color;
   box-sizing: border-box;
   box-shadow: 0 0 8px rgba(0,0,0,.18),0 8px 16px rgba(0,0,0,.36);
   color: #fff;
@@ -553,7 +557,7 @@ h2{
 
 #mc_embed_signup .frontpage-success-msg {
   padding: 8px 15px 8px 15px;
-  background-color: #663399;
+  background-color: $main_color;
   color: #fff;
 }
 
