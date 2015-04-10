@@ -1,6 +1,4 @@
----
-title: Free Document Templates
----
+- content_for(:title, t('landing.title'))
 
 .header.main-header role='banner'
   header
@@ -9,7 +7,7 @@ title: Free Document Templates
       h1.visually-hidden StartupDocs.ru
       h2
         p= t('landing.header.h2')
-        p= t('landing.header.leave-email')
+        = partial 'shared/download_form'
 
 .main role='main'
   main
@@ -33,9 +31,9 @@ title: Free Document Templates
       section
         .content
           h2= t('landing.news.h2')
-          h3= link_to t('landing.news.h3'), '#'
+          h3= link_to t('landing.news.h3'), t('landing.news.link')
           p=  t('landing.news.text')
-          p=  link_to t('landing.news.more-link'), '#', class: 'more-link'
+          p=  link_to t('landing.news.more-link'), t('landing.news.link'), class: 'more-link'
 
     .section.partners
       section
@@ -55,8 +53,5 @@ title: Free Document Templates
     .footer.main-footer
       footer
         .content
-          h2= t('landing.footer.h2')
-
-    .footer-sender
-      .content
-        = t('landing.footer.contacts')
+          h2= t('landing.disclaimer.h2')
+          p=  t('landing.disclaimer.text')

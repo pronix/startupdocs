@@ -1,1 +1,15 @@
+- content_for(:title, document.name)
+
 = partial 'shared/header'
+
+.article.entry-content
+  article
+    h1= document.name
+    = document.created_at
+    ' ,
+    = link_to document.author_name, document.author_link
+
+  = partial "documents/#{I18n.locale}/#{document.link}"
+  p &nbsp;
+  h2= t('download_form.h2')
+  = partial 'shared/download_form'

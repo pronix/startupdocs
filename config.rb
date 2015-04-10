@@ -8,14 +8,15 @@ activate :i18n, mount_at_root: :ru
 set :css_dir,    'assets/stylesheets'
 set :js_dir,     'assets/javascripts'
 set :images_dir, 'assets/images'
+set :relative_links, true
 
 [:ru, :en].each do |lang|
   data.send(lang).documents.each do |document|
-    proxy "/#{document.link}", '/document/index.html', locals: { document: document } do
+    proxy "/#{document.link}/index.html", '/document/index.html', locals: { document: document }, ignore: true do
       I18n.locale = lang
     end
 
-    proxy "/#{lang.to_s}/#{document.link}", '/document/index.html', locals: { document: document } do
+    proxy "/#{lang.to_s}/#{document.link}/index.html", '/document/index.html', locals: { document: document }, ignore: true do
       I18n.locale = lang
     end
   end
@@ -37,9 +38,17 @@ configure :build do
   activate :minify_javascript
   activate :relative_assets
 
-  set :relative_links, true
-
   compass_config do |config|
     config.output_style = :compressed
   end
+end
+
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.build_before = true
+  deploy.commit_message = 'Site updated to ' << `git log --pretty="%h" -n1`
+end
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-61714922-1'
 end
