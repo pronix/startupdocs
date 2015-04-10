@@ -48,3 +48,7 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.commit_message = 'Site updated to ' << `git log --pretty="%h" -n1`
 end
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-61714922-1'
+end
