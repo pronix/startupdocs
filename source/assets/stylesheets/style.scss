@@ -129,19 +129,20 @@ h2{
   font-weight: 300;
   text-align: left;
 }
-.ninja-forms-cont{
+
+#mc_embed_signup {
   margin: 30px auto 0px;
   max-width: 400px;
 }
-.entry-content .ninja-forms-cont{
+.entry-content #mc_embed_signup{
   margin: 0;
 }
 
-.ninja-forms-cont p{
+#mc_embed_signup p, .mc_embed_signup p {
   font-size: 16px;
   margin-bottom: 0;
 }
-.ninja-forms-cont label{
+#mc_embed_signup label{
   background: #3b3b3b;
   box-sizing: border-box;
   color: #fff;
@@ -154,32 +155,32 @@ h2{
   position: relative;
   top: 4px;
 }
-.ninja-forms-cont input{
+#mc_embed_signup input{
   border:0;
   font-size: 1em;
   line-height: 1em;
   color:#3b3b3b;
 }
-.ninja-forms-cont input::-webkit-input-placeholder {
+#mc_embed_signup input::-webkit-input-placeholder {
     color: #3b3b3b;
     line-height: 1.4em;
 }
-.ninja-forms-cont input:-moz-placeholder {
+#mc_embed_signup input:-moz-placeholder {
    color: #3b3b3b;
    line-height: 1.4em;
    opacity: 1;
 }
-.ninja-forms-cont input::-moz-placeholder {
+#mc_embed_signup input::-moz-placeholder {
    color: #3b3b3b;
    line-height: 1.4em;
    opacity: 1;
 }
-.ninja-forms-cont input:-ms-input-placeholder {
+#mc_embed_signup input:-ms-input-placeholder {
    color: #3b3b3b;
    line-height: 1.4em;
 }
-.ninja-forms-cont input[type="text"],
-.ninja-forms-cont input[type="email"]{
+#mc_embed_signup input[type="text"],
+#mc_embed_signup input[type="email"]{
   background: transparent;
   border:2px solid #3b3b3b;
   box-sizing: border-box;
@@ -188,12 +189,12 @@ h2{
   padding: 5px 5px;
   width: 100%;
 }
-.ninja-forms-cont input[type="text"]:focus,
-.ninja-forms-cont input[type="email"]:focus{
+#mc_embed_signup input[type="text"]:focus,
+#mc_embed_signup input[type="email"]:focus{
   background: #3b3b3b;
   color: #fff;
 }
-.ninja-forms-cont input[type="submit"]{
+#mc_embed_signup input[type="submit"]{
   background: #663399;
   border: 2px solid #663399;
   box-sizing: border-box;
@@ -209,7 +210,7 @@ h2{
   padding: 6px 15px;
   text-transform: uppercase;
 }
-.ninja-forms-cont input[type="submit"]:focus{
+#mc_embed_signup input[type="submit"]:focus{
   box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
 }
 #ninja_forms_form_2 .ninja-forms-field-error{
@@ -511,7 +512,7 @@ h2{
     *zoom: 1;
 }
 
-.ninja-forms-cont p {
+#mc_embed_signup p {
   font-size: 1em;
 }
 
@@ -523,23 +524,23 @@ h2{
   text-transform: uppercase;
 }
 
-.ninja-forms-cont input {
+#mc_embed_signup input {
   font-size: 18px;
   font-family: 'Didact Gothic', CenturyGothic, 'gothic', AppleGothic, sans-serif;
 }
 
-.ninja-forms-cont input[type="email"] {
+#mc_embed_signup input[type="email"] {
   background-color: rgba(218,218,218,0.9);
 }
 
-.ninja-forms-cont .frontpage-success-msg {
+#mc_embed_signup .frontpage-success-msg {
   padding: 8px 15px 8px 15px;
   background-color: #663399;
   margin: 0 0 0 -15px;
   color: #fff;
 }
 
-.ninja-forms-cont .frontpage-success-msg a {
+#mc_embed_signup .frontpage-success-msg a {
   color: #fff;
 }
 
@@ -582,14 +583,14 @@ h2{
   .main-footer{
     padding: 100px 40px;
   }
-  .ninja-forms-cont,
-  .ninja-forms-cont .field{
+  #mc_embed_signup,
+  #mc_embed_signup .field{
     max-width: 600px;
   }
-  .ninja-forms-cont form{
+  #mc_embed_signup form{
     max-width: 500px;
   }
-  .ninja-forms-cont input[type="submit"]{
+  #mc_embed_signup input[type="submit"]{
     margin-top: 14px;
   }
   .main-header h2{
