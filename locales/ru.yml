@@ -15,18 +15,21 @@ ru:
       text: Добавили новый документ
       more-link: (подробнее&hellip;)
     partners:
-      h2: Команда
+      h2: Помощь юриста
       text: бла
     social:
       h2: Расскажите друзьям
       site-url: "http://startupdocs.ru"
-    footer:
-      h2: Disclaimer
-      contacts: Контакты
+    disclaimer:
+      h2: Дисклеймер
+      text: StartupDocs оставляет за собой право вносить изменения в любые материалы, содержание и данные, представленные на этом сайте, и не гарантирует их точности.
+
+  footer:
+    text: StartupDocs is brought to you by
 
   download_form:
     h2: Скачать все документы
-    text: Оставьте нам адрес вашей электронной почты, и мы сообщим вам об изменениях в законодательстве.
+    text: Оставьте нам свой e-mail, и мы сообщим вам об изменениях в законодательстве.
     button: Скачать
     thanks: Вы можете скачать документы
     link: StartupDocs.ru-v1.0.zip
