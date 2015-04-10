@@ -31,9 +31,9 @@
       section
         .content
           h2= t('landing.news.h2')
-          h3= link_to t('landing.news.h3'), '#'
+          h3= link_to t('landing.news.h3'), t('landing.news.link')
           p=  t('landing.news.text')
-          p=  link_to t('landing.news.more-link'), '#', class: 'more-link'
+          p=  link_to t('landing.news.more-link'), t('landing.news.link'), class: 'more-link'
 
     .section.partners
       section
@@ -55,6 +55,4 @@
         .content
           h2= t('landing.footer.h2')
 
-    .footer-sender
-      .content
-        = t('landing.footer.contacts')
+    = partial 'shared/footer'
