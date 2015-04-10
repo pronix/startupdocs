@@ -11,6 +11,7 @@ en:
     news:
       h2: Latest News
       h3: Subscription and Shareholders’ Agreement
+      link: subscription-shareholders-agreement
       text: "<p>After you have agreed on the term sheet...</p>"
       more-link: (more&hellip;)
     partners:
@@ -21,7 +22,11 @@ en:
     footer:
       h2: Disclaimer
       contacts: StartupDocs is brought to you by
+
   download_form:
     h2: Download Documents
     text: Please enter your e-mail address so I can keep you posted on any updates.
     button: Download
+    thanks: Thanks, now
+    link: StartupDocs.en-v1.0.zip
+    link_text: download the documents here!

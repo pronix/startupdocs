@@ -11,6 +11,7 @@ ru:
     news:
       h2: Новости
       h3: Решение единственного учредителя
+      link: reshenie-edinstvennogo-uchreditelya-obshestva
       text: Добавили новый документ
       more-link: (подробнее&hellip;)
     partners:
@@ -27,3 +28,7 @@ ru:
     h2: Скачать все документы
     text: Оставьте нам адрес вашей электронной почты, и мы сообщим вам об изменениях в законодательстве.
     button: Скачать
+    thanks: Вы можете скачать документы
+    link: StartupDocs.ru-v1.0.zip
+    link_text: по этой ссылке
+

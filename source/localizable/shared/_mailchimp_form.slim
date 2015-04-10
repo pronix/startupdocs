@@ -5,10 +5,14 @@
         label for="mce-EMAIL" E-mail
         input#mce-EMAIL.required.email name="EMAIL" type="email" value="" /
       #mce-responses.clear
-        #mce-error-response.response style="display:none"
-        #mce-success-response.response style="display:none"
-      /! real people should not fill this in and expect good things - do not remove this or risk form bot signups
+        #mce-error-response.response style="display:none;"
+        #mce-success-response.response style="display:none;"
       div style=("position: absolute; left: -5000px;")
         input name="b_041bff89f073fa6d0677e1438_bd113cf897" tabindex="-1" type="text" value="" /
       .clear
         input#mc-embedded-subscribe.button name="subscribe" type="submit" value="#{t('download_form.button')}" /
+
+  .frontpage-success-msg style="display:none;"
+    = t('download_form.thanks')
+    '
+    = link_to t('download_form.link_text'), "/uploads/#{t('download_form.link')}"
