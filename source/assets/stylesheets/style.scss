@@ -443,6 +443,10 @@ h2{
   margin-bottom: 1em;
 }
 
+.entry-content .center {
+  text-align: center;
+}
+
 .comments-wrapper{
   background: #e4e4e4;
 }
@@ -489,6 +493,7 @@ h2{
 }
 .entry-content .term-sheet-table td.left{
   padding-right: 0.5em;
+  font-weight: 600;
 }
 .entry-content .term-optional{
   background-color: #FFFF00;
