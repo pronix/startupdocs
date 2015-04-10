@@ -13,6 +13,22 @@ body{
   font-weight: lighter;
   line-height: 1.8em;
 }
+html, body, #container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#container {
+  height: auto;
+  min-height: 100%;
+}
+#footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  margin-top: -3em;
+}
 a{
   color: #02AEAF;
 }
@@ -424,6 +440,7 @@ h2{
   max-width: 800px;
   margin: 0 auto 20px;
   padding: 20px;
+  padding-bottom: 3em;
 }
 .entry-content h1, .entry-content h2{
   color: #000;

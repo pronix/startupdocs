@@ -12,11 +12,11 @@ set :relative_links, true
 
 [:ru, :en].each do |lang|
   data.send(lang).documents.each do |document|
-    proxy "/#{document.link}", '/document/index.html', locals: { document: document }, ignore: true do
+    proxy "/#{document.link}/index.html", '/document/index.html', locals: { document: document }, ignore: true do
       I18n.locale = lang
     end
 
-    proxy "/#{lang.to_s}/#{document.link}", '/document/index.html', locals: { document: document }, ignore: true do
+    proxy "/#{lang.to_s}/#{document.link}/index.html", '/document/index.html', locals: { document: document }, ignore: true do
       I18n.locale = lang
     end
   end
